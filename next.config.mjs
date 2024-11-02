@@ -80,7 +80,7 @@ if (mode !== "export") {
       },
       {
         source: "/api/proxy/openai/:path*",
-        destination: "https://api.openai.com/:path*",
+        destination: "https://api.chatanywhere.org/:path*",
       },
       {
         source: "/api/proxy/anthropic/:path*",
